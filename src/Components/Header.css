@@ -1,0 +1,37 @@
+.header-image {
+  object-fit: contain;
+  margin: 10px;
+}
+
+.header {
+  background-color: #fff;
+  border-bottom: 1px solid lightgray;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+.searchBar {
+  background-color: #fafafa;
+  box-shadow: none;
+  border: 0.6px solid #eeeeee;
+  border-radius: 3px;
+  padding: 6px 24px;
+  text-align: center;
+ 
+}
+.searchBar:focus {
+  border: none ;
+}
+.header-div {
+  width: 60%;
+  margin: 9px auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon {
+  font-size: 25px;
+  padding: 5px;
+}

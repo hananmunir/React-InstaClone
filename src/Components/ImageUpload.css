@@ -1,0 +1,39 @@
+.upload-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.progress-bar,
+.input-field {
+  margin: 10px 0;
+}
+
+.choose-file {
+  padding: 10px 20px;
+  width: 55%;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+}
+
+.input-field {
+  border: 1px solid lightgray;
+  padding: 10px 18px;
+}
+
+.upload-btn {
+ 
+  width: 40%;
+  margin: 30px 0;
+}
+.header-upload-btn{
+   z-index: 999;
+}
+.upload-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
